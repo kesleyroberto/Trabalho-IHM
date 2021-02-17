@@ -1,89 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./assets/style-index.css" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <title>Fintech</title>
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./assets/style-index.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <title>Fintech</title>
-</head>
+    <body>
+        <nav class="navbar navbar-light justify-content-between">
+            <a href="#" class="navbar-brand">Fintech</a>
+            <form class="form-inline">
+                <input
+                    class="form-control search-navbar mr-sm-2"
+                    placeholder="Digite sua busca..."
+                    type="search"
+                    aria-label="Search"
+                />
+                <button class="btn btn-outline-success btn-search my-2 my-sm-0" type="submit">
+                    <img class="search-icon" src="./assets/img/search.png" alt="search" />
+                </button>
+            </form>
+        </nav>
 
-<body>
-  <nav class="navbar navbar-light justify-content-between">
-    <a href="#" class="navbar-brand">Fintech</a>
-    <form class="form-inline">
-      <input class="form-control search-navbar mr-sm-2" placeholder="Digite sua busca..." type="search" aria-label="Search">
-      <button class="btn btn-outline-success btn-search my-2 my-sm-0" type="submit">
-        <img class="search-icon" src="../assets/img/search.png" alt="search">
-      </button>
-    </form>
-  </nav>
+        <div class="main-content">
+            <div class="title-page">
+                <div class="title1">Simulador</div>
+                <div class="title2">de</div>
+                <div class="title3">Financiamento</div>
+            </div>
+            <div class="cards-list">
+                <div class="card">
+                    <div class="card-icon">
+                        <img
+                            class="icon-card-top"
+                            src="./assets/img/financing.png"
+                            alt="financing"
+                        />
+                    </div>
+                    <div class="financing card-body">
+                        <div class="card-info">
+                            <h1>Financiamento</h1>
+                            <a class="btn-option" href="/"> Simular </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img class="icon-card-top" src="./assets/img/register.png" alt="register" />
+                    </div>
+                    <div class="register card-body">
+                        <div class="card-info">
+                            <h1>Cadastro</h1>
+                            <a class="btn-option" href="/"> Cadastrar </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img class="icon-card-top" src="./assets/img/contact.png" alt="contact" />
+                    </div>
+                    <div class="contact card-body">
+                        <div class="card-info">
+                            <h1>Contato</h1>
+                            <a class="btn-option" href="/"> Fale conosco </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img class="icon-card-top" src="./assets/img/help.png" alt="help" />
+                    </div>
+                    <div class="help card-body">
+                        <div class="card-info">
+                            <h1>Ajuda</h1>
+                            <a class="btn-option" href="/"> Manuais </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <div class="main-content">
-    <div class="title-page">
-      <div class="title1">Simulador</div>
-      <div class="title2">de</div>
-      <div class="title3">Financiamento</div>
-    </div>
-    <div class="cards-list">
-      <div class="card">
-        <div class="card-icon">
-          <img class="icon-card-top" src="../assets/img/financing.png" alt="financing">
-        </div>
-        <div class="financing card-body">
-          <div class="card-info">
-            <h1>Financiamento</h1>
-            <a class="btn-option" href="/">
-              Simular
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-icon">
-          <img class="icon-card-top" src="../assets/img/register.png" alt="register">
-        </div>
-        <div class="register card-body">
-          <div class="card-info">
-            <h1>Cadastro</h1>
-            <a class="btn-option" href="/">
-              Cadastrar
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-icon">
-          <img class="icon-card-top" src="../assets/img/contact.png" alt="contact">
-        </div>
-        <div class="contact card-body">
-          <div class="card-info">
-            <h1>Contato</h1>
-            <a class="btn-option" href="/">
-              Fale conosco
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-icon">
-          <img class="icon-card-top" src="../assets/img/help.png" alt="help">
-        </div>
-        <div class="help card-body">
-          <div class="card-info">
-            <h1>Ajuda</h1>
-            <a class="btn-option" href="/">
-              Manuais
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
