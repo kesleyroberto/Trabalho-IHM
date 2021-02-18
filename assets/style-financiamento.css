@@ -3,17 +3,34 @@
     color: white;
 }
 
+.active {
+    text-decoration: underline;
+}
+
+.opt-auto,
+.opt-imovel,
+.opt-outros {
+    color: white;
+    text-decoration: none;
+}
+
 .caixa-texto {
     background-color: transparent;
     border-top: none;
     border-left: none;
     border-right: 1px solid grey;
     border-bottom: 1px solid grey;
-    color: white;
+    color: rgb(221, 221, 221);
     border-bottom-right-radius: 5px;
+    width: 100px;
+}
+
+.caixa-texto::placeholder {
+    color: rgb(216, 216, 216);
 }
 
 .card-result {
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: white;
@@ -21,5 +38,86 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    margin: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+.data {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dupla-form {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.direita {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.esquerda {
+    width: 100%;
+}
+
+.subtitulo-card {
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.valor-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.butn {
+    color: white;
+    background-color: var(--primary-color1);
+    padding: 5px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--primary-color1-hover);
+}
+
+.butn .fas {
+    margin-right: 20px;
+    color: var(--primary-color1-hover);
+}
+
+.butn:hover {
+    background-color: var(--primary-color1-hover);
+    text-decoration: none;
+}
+
+.b1,
+.b2,
+.b3 {
+    width: 250px;
+}
+
+.b1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.b3 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }

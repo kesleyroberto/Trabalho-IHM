@@ -23,9 +23,9 @@
 
     <body>
         <nav class="navbar navbar-light justify-content-between">
-            <div class="opt-auto active">Auto</div>
-            <div class="opt-imovel">Imóvel</div>
-            <div class="opt-outros">Outros</div>
+            <a href="#" class="opt-auto active">Auto</a>
+            <a href="#" class="opt-imovel">Imóvel</a>
+            <a href="#" class="opt-outros">Outros</a>
         </nav>
 
         <div class="main-content">
@@ -33,23 +33,28 @@
                 <div class="title1">Automóvel</div>
                 <form action="#" class="data">
                     <div class="dupla-form">
-                        <label for="total">Valor à vista:</label>
-                        R$<input
-                            class="caixa-texto"
-                            id="total"
-                            type="text"
-                            placeholder="0.000,00"
-                        />
+                        <label for="total">Valor à vista: </label>
+                        <div class="val">
+                            R$
+                            <input
+                                class="caixa-texto"
+                                id="total"
+                                type="text"
+                                placeholder="0.000,00"
+                            />
+                        </div>
                     </div>
                     <div class="dupla-form">
-                        <label for="entrada">Entrada: </label>
-                        R$
-                        <input
-                            class="caixa-texto"
-                            id="entrada"
-                            type="text"
-                            placeholder="0.000,00"
-                        />
+                        <label for="entrada">Entrada:</label>
+                        <div class="val">
+                            R$
+                            <input
+                                class="caixa-texto"
+                                id="entrada"
+                                type="text"
+                                placeholder="0.000,00"
+                            />
+                        </div>
                     </div>
                     <div class="dupla-form">
                         <label for="parcelas">Parcelas: </label>
@@ -73,15 +78,27 @@
                             R$
                             <div id="valor">0.000,00</div>
                         </div>
-                        <div class="subtitulo-card">
+                        <div class="subtitulo-card">Parcelas:</div>
+                        <div class="valor-final">
                             R$
-                            <div id="value-parcela">0.000,00</div>
+                            <div id="parcela">0.000,00</div>
                         </div>
                     </div>
                     <div class="direita">
                         <div class="compartilhar"><i class="fas fa-share-alt"></i></div>
                         <div class="pdf"><i class="far fa-file-pdf"></i></div>
                     </div>
+                </div>
+                <div class="botoes">
+                    <a class="butn b1" href="/">
+                        <i class="fas fa-dollar-sign"></i> Simulação Completa
+                    </a>
+                    <a class="butn b2" href="/">
+                        <i class="fas fa-file-alt"></i>Parcelas progressivas
+                    </a>
+                    <a class="butn b3" href="/">
+                        <i class="fas fa-envelope"></i>Enviar por e-mail
+                    </a>
                 </div>
             </div>
         </div>
