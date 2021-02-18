@@ -1,0 +1,25 @@
+.juros-info {
+    font-weight: 600;
+    color: white;
+}
+
+.caixa-texto {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    color: white;
+    border-bottom-right-radius: 5px;
+}
+
+.card-result {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}

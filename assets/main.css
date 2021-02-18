@@ -1,0 +1,35 @@
+.label {
+    color: #3a31b6;
+    font-family: Montserrat!important;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+  }
+  .botpos{
+      display: flex;
+      vertical-align: middle;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      margin-left: -2.5rem;
+  }
+  #posbot{
+      margin-left: 1rem;
+  }
+  .form{
+      margin-left: 3rem;
+  }
+#main-content{
+    height: 190vh;
+}
+#title-page{
+    margin-bottom: -1.5rem;
+}
+@media (max-width: 990px){
+    #main-content{
+        height: 180vh;
+    }
+    #title-page{
+        margin-bottom: 0rem;
+    }  
+}
+  
